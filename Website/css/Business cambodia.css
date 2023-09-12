@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    font-family: 'Roboto','Hanuman';
+}
+.main{
+    width: 100%;
+    height: 4150px;
+    background-color: #ffffff;
+}
+.left{
+    width: 253.2px;
+    height: 100vh;
+    background-color: #f4f4f5;
+    position: sticky;
+    float: left;
+    top: 0;
+}
+.left-header{
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+.left-header img{
+    margin-left: 32px;
+    margin-top: 8px;
+    float: left;
+}
+.left-header-name{
+    width: 110px;
+    height: 60px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 16px;
+}
+.left-header-name p, .left-header-name h3{
+    margin: 0;
+}
+.left-header-name p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.left-header-name h3{
+    font-size: 24px;
+    margin-top: 3px;
+}
+.search{
+    width: 100%;
+    height: 32px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input[type=text]{
+    width: 198.4px;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding-left: 16px;
+}
+.search input[type=text]::placeholder{
+    color: #a1a1aa;
+    font-size: 17px;
+}
+.menu{
+    width: 221.2px;
+    height: 524px;
+    float: left;
+    margin-left: 16px;
+}
+.menu ul{
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu li{
+    text-align: center;
+    margin-top: 5px;
+    padding: 8px 0;
+    border-radius: 8px;
+}
+.menu li:hover{
+    background-color: #a1a1aa;
+}
+.menu li:nth-child(1){
+    background-color: #ed1c24;
+}
+.menu li:nth-child(1) a{
+    color: #ffffff;
+}
+/* @right */
+.right{
+    width: 1202px;
+    height: 100%;
+    float: left;
+    margin-left: 32px;
+}
+.right-header{
+    width: 100%;
+    height: 96px;
+    margin-top: 32px;
+    float: left;
+}
+.right-header p, .right-header h1{
+    margin: 0;
+}
+.right-header p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #5f5f68;
+}
+.right-header h1{
+    font-size: 30px;
+    margin-top: 13px;
+    color: #27272a;
+}
+/* @slide */
+.slide{
+    width: 100%;
+    height: 512px;
+    background-color: #5f5f68;
+    float: left;
+    margin-top: 4px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+img{
+    object-fit: cover;
+}
+.slide img{
+    position: absolute;
+}
+.useless{
+    width: 100%;
+    height: 100%;
+    background-color: #00000092;
+    position: absolute;
+}
+.slide-title{
+    width: 930px;
+    height: 300px;
+    margin-top: 130px;
+    margin-left: 64px;
+}
+.slide-title p{
+    color: #eeeeee;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+}
+.slide-title h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 5px;
+}
+.slide-title button{
+    font-size: 20px;
+    font-family: Hanuman;
+    font-weight: 700;
+    width: 162.1px;
+    height: 44px;
+    background-color: #ed1c24;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+/* @ad */
+.ad{
+    width: 100%;
+    height: 434px;
+    float: left;
+}
+.ad p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.ad-img{
+    width: 100%;
+    height: 390px;
+    float: left;
+}
+.ad-img img{
+    border-radius: 8px;
+}
+.news{
+    width: 100%;
+    height: 340px;
+    float: left;
+    margin-top: 28px;
+}
+.news p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.news span{
+    float: right;
+}
+.news span a {
+    text-decoration: none;
+    color: #ed1c24;
+    font-size: 18px;
+    font-weight: 300;
+}
+.news-bar{
+    width: 100%;
+    height: 296px;
+    float: left;
+}
+.news-block{
+    width: 288.5px;
+    height: 100%;
+    float: left;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.1s;
+}
+.news-block:not(.news-block:nth-child(1)){
+    margin-left: 15.9px;
+}
+.news-block-img{
+    width: 100%;
+    float: left;
+    background-color: lightsalmon;
+}
+.news-block-title{
+    width: 256.5px;
+    height: 104px;
+    float: left;
+    margin-left: 16px;
+}
+.news-block-title h4, .news-block-title h3{
+    margin: 0;
+}
+.news-block-title h4{
+    font-size: 16px;
+    color: #ed1c24;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.news-block-title h3{
+    font-size: 16px;
+    margin-top: 3px;
+}
+.news-block-title p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.news-block:hover{
+    transform: scale(1.05);
+}
+
+.buttom{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-color: pink;
+}
